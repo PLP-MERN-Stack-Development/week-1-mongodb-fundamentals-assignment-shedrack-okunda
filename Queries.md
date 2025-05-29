@@ -33,7 +33,7 @@ Start your MongoDB shell:
 mongosh
 ```
 
-## Switch to the database:
+## Switch to the database
 
 ```bash
 use plp_bookstore
