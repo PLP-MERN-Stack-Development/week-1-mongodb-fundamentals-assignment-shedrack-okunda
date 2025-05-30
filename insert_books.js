@@ -22,6 +22,7 @@ const books = [
     pages: 336,
     publisher: "J. B. Lippincott & Co.",
   },
+
   {
     title: "1984",
     author: "George Orwell",
@@ -32,6 +33,7 @@ const books = [
     pages: 328,
     publisher: "Secker & Warburg",
   },
+
   {
     title: "The Great Gatsby",
     author: "F. Scott Fitzgerald",
@@ -52,6 +54,7 @@ const books = [
     pages: 311,
     publisher: "Chatto & Windus",
   },
+
   {
     title: "The Hobbit",
     author: "J.R.R. Tolkien",
@@ -62,6 +65,7 @@ const books = [
     pages: 310,
     publisher: "George Allen & Unwin",
   },
+
   {
     title: "The Catcher in the Rye",
     author: "J.D. Salinger",
@@ -72,6 +76,7 @@ const books = [
     pages: 224,
     publisher: "Little, Brown and Company",
   },
+
   {
     title: "Pride and Prejudice",
     author: "Jane Austen",
@@ -82,6 +87,7 @@ const books = [
     pages: 432,
     publisher: "T. Egerton, Whitehall",
   },
+
   {
     title: "The Lord of the Rings",
     author: "J.R.R. Tolkien",
@@ -92,6 +98,7 @@ const books = [
     pages: 1178,
     publisher: "Allen & Unwin",
   },
+
   {
     title: "Animal Farm",
     author: "George Orwell",
@@ -102,6 +109,7 @@ const books = [
     pages: 112,
     publisher: "Secker & Warburg",
   },
+
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
@@ -112,6 +120,7 @@ const books = [
     pages: 197,
     publisher: "HarperOne",
   },
+
   {
     title: "Moby Dick",
     author: "Herman Melville",
@@ -122,6 +131,7 @@ const books = [
     pages: 635,
     publisher: "Harper & Brothers",
   },
+
   {
     title: "Wuthering Heights",
     author: "Emily Brontë",
