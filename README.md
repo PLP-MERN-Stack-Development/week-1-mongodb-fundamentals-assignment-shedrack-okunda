@@ -1,47 +1,40 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19665606&assignment_repo_type=AssignmentRepo)
-# MongoDB Fundamentals Assignment
+# 📚 MongoDB Bookstore Queries
 
-This assignment focuses on learning MongoDB fundamentals including setup, CRUD operations, advanced queries, aggregation pipelines, and indexing.
+This project contains a sample MongoDB database named `plp_bookstore` populated with book data and includes a series of queries demonstrating basic CRUD operations, advanced filtering, aggregation pipelines, and indexing for performance optimization.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a MongoDB database
-2. Perform basic CRUD operations
-3. Write advanced queries with filtering, projection, and sorting
-4. Create aggregation pipelines for data analysis
-5. Implement indexing for performance optimization
+![MongoDB Compass Screenshot](image.png)
 
-## Getting Started
+## 🧰 Prerequisites
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
+-   MongoDB installed locally or access to a MongoDB Atlas cluster
+-   Mongo Shell (`mongosh`) or a MongoDB GUI (e.g., Compass, Studio 3T)
+-   Node.js (only needed to run the data insertion script)
 
-## Files Included
+---
 
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
+## 🚀 Getting Started
 
-## Requirements
+1. **Clone the repository or copy the script files.**
+2. **Insert Sample Data**
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
+    Run the following command in your terminal to insert the books into your MongoDB database:
 
-## Submission
+    ```bash
+    node insert_books.js
+    ```
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## Access MongoDB Shell
 
-1. Complete all tasks in the assignment
-2. Add your `queries.js` file with all required MongoDB queries
-3. Include a screenshot of your MongoDB database
-4. Update the README.md with your specific setup instructions
+Start your MongoDB shell:
 
-## Resources
+```bash
+mongosh
+```
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+## Switch to the database
+
+```bash
+use plp_bookstore
+```
